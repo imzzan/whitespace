@@ -1,13 +1,204 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.animation-1 {
+    animation-name: animate-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-1 {
+    0%   {top:0px;}
+    25%  {top:20px;}
+    50%  {top:0px;}
+    75%  {top:20px;}
+    100% {top:0px;}
+}
+
+.animation-2 {
+    animation-name: animate-2;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-2 {
+    0%   {top:58%;}
+    25%  {top:65%;}
+    50%  {top:58%;}
+    75%  {top:65%;}
+    100% {top:58%;}
+}
+
+.animation-3 {
+    animation-name: animate-3;
+    animation-duration: 2s;
+    animation-delay: 0.9s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-3 {
+    0%   {top:58%;}
+    25%  {top:65%;}
+    50%  {top:58%;}
+    75%  {top:65%;}
+    100% {top:58%;}
+}
+
+.animation-4 {
+    animation-name: animate-4;
+    animation-duration: 2s;
+    animation-delay: 0.9s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-4 {
+    0%   {bottom:8px;}
+    25%  {bottom:20px;}
+    50%  {bottom:8px;}
+    75%  {bottom:20px;}
+    100% {bottom:8px;}
+}
+
+.work-1 {
+    animation-name: work-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes work-1 {
+    0%   {top:40px;}
+    25%  {top:32px;}
+    50%  {top:40px;}
+    75%  {top:32px;}
+    100% {top:40px;}
+}
+
+.work-2 {
+    animation-name: work-2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes work-2 {
+    0%   {top:64px;}
+    25%  {top:71px;}
+    50%  {top:64px;}
+    75%  {top:71px;}
+    100% {top:64px;}
+}
+
+.work-3 {
+    animation-name: work-3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes work-3 {
+    0%   {top:16px;}
+    25%  {top:23px;}
+    50%  {top:16px;}
+    75%  {top:23px;}
+    100% {top: 16px;}
+}
+
+.work-4 {
+    animation-name: work-4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+}
+
+@keyframes work-4 {
+    0%   {top:100px;}
+    25%  {top:90px;}
+    50%  {top:100px;}
+    75%  {top:90px;}
+    100% {top: 100px;}
+}
+
+.work-5 {
+    animation-name: work-5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes work-5 {
+    0%   {bottom:32px;}
+    25%  {bottom:20px;}
+    50%  {bottom:32px;}
+    75%  {bottom:20px;}
+    100% {bottom: 32px;}
+}
+
+.work-6 {
+    animation-name: work-6;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 1.3s;
+}
+
+@keyframes work-6 {
+    0%   {bottom:64px;}
+    25%  {bottom:74px;}
+    50%  {bottom:64px;}
+    75%  {bottom:74px;}
+    100% {bottom:64px;}
+}
+
+.work-7 {
+    animation-name: work-7;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes work-7 {
+    0%   {bottom:50%;}
+    25%  {bottom:54%;}
+    50%  {bottom:50%;}
+    75%  {bottom:54%;}
+    100% {bottom:50%;}
+}
+
+.work-8 {
+    animation-name: work-8;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes work-8 {
+    0%   {bottom:100px;}
+    25%  {bottom:90px;}
+    50%  {bottom:100px;}
+    75%  {bottom:90px;}
+    100% {bottom: 100px;}
 }
